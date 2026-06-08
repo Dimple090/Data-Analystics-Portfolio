@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dimple Parihar - Data Analyst Portfolio. View interactive database simulations, business intelligence modeling, and database tuning.">
+    <title>Dimple Parihar | Data Analyst Portfolio</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="index.css?v=10">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- --- NAVIGATION BAR --- -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">dimple<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#sql-console" class="nav-link">SQL Console</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="Dimple_Parihar_Resume.pdf" class="btn btn-secondary nav-cta" target="_blank"><i class="fa-solid fa-arrow-down-to-bracket"></i> Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- --- HERO SECTION --- -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-subtitle">Data Analyst</span>
+                <h1 class="hero-title">Turning Complex Data Into <span>Strategic Action</span>.</h1>
+                <p class="hero-description">
+                    Results-oriented Data Analyst specializing in business intelligence simulations, database indexing optimizations, and translating transactional metrics into strategic business insights.
+                </p>
+                <div class="hero-actions">
+                    <a href="#sql-console" class="btn btn-primary">Query My Resume <i class="fa-solid fa-terminal"></i></a>
+                    <a href="#projects" class="btn btn-secondary">Selected Work <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-image-container">
+                    <img src="photo.png" alt="Dimple Parihar Portrait" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- IMPACT / STATS BANNER --- -->
+    <section class="stats-banner">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">35%</span>
+                <span class="stat-label">Query Latency Reduced</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">18%</span>
+                <span class="stat-label">Engagement Optimization</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">85%</span>
+                <span class="stat-label">Data Pipeline Acceleration</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">40%</span>
+                <span class="stat-label">Redundancy Reduction</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- ABOUT ME SECTION --- -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="about-title">Translating raw metrics into <span>strategic data solutions</span>.</h2>
+                    <p>
+                        I am a Computer Science & Engineering student at MIET Jammu (graduating 2026), focusing my work on data engineering, database tuning, and business intelligence. I specialize in building client-side statistical models, creating analytical dashboards, and writing efficient queries.
+                    </p>
+                    <p>
+                        By modeling dependencies on operational logistics data and tuning complex NoSQL databases, I've developed a strong capability to help teams discover performance bottle-necks and make data-driven design decisions.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Location</span>
+                            <span class="detail-value">Jammu, J&K, India</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Education</span>
+                            <span class="detail-value">B.E. Computer Science</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email</span>
+                            <span class="detail-value"><a href="mailto:dimpleparihar0707@gmail.com" class="highlight">dimpleparihar0707@gmail.com</a></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Phone</span>
+                            <span class="detail-value">+91-6005153902</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card-container">
+                    <div class="glass-card about-metric-card">
+                        <i class="fa-solid fa-database about-metric-icon"></i>
+                        <span class="about-metric-val">SQL & MongoDB</span>
+                        <p class="stat-label">Database Optimization</p>
+                    </div>
+                    <div class="glass-card about-metric-card">
+                        <i class="fa-solid fa-chart-pie about-metric-icon"></i>
+                        <span class="about-metric-val">Tableau & BI</span>
+                        <p class="stat-label">Strategic Modeling</p>
+                    </div>
+                    <div class="glass-card about-metric-card">
+                        <i class="fa-solid fa-square-poll-vertical about-metric-icon"></i>
+                        <span class="about-metric-val">Python Scripting</span>
+                        <p class="stat-label">Data Wrangling & Automation</p>
+                    </div>
+                    <div class="glass-card about-metric-card">
+                        <i class="fa-solid fa-microchip about-metric-icon"></i>
+                        <span class="about-metric-val">C++ Data Pipelines</span>
+                        <p class="stat-label">Algorithmic Efficiency</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- SQL TERMINAL SECTION --- -->
+    <section id="sql-console" class="sql-section">
+        <div class="container">
+            <h2 class="section-title">Query My <span>Interactive Database</span></h2>
+            <div class="sql-window">
+                <!-- Header -->
+                <div class="sql-header">
+                    <div class="sql-dots">
+                        <span class="sql-dot dot-red"></span>
+                        <span class="sql-dot dot-yellow"></span>
+                        <span class="sql-dot dot-green"></span>
+                    </div>
+                    <div class="sql-title-text">
+                        <span class="sql-status-indicator"></span>
+                        dimple_parihar_db - Active Session
+                    </div>
+                    <div style="width: 45px;"></div>
+                </div>
+                <!-- Body -->
+                <div class="sql-body">
+                    <!-- Sidebar -->
+                    <div class="sql-sidebar">
+                        <span class="sidebar-section-title">Database Tables</span>
+                        <ul class="sql-tables-list">
+                            <li class="sql-table-item active" data-table="projects"><i class="fa-solid fa-table"></i> projects</li>
+                            <li class="sql-table-item" data-table="skills"><i class="fa-solid fa-table"></i> skills</li>
+                            <li class="sql-table-item" data-table="experience"><i class="fa-solid fa-table"></i> experience</li>
+                            <li class="sql-table-item" data-table="education"><i class="fa-solid fa-table"></i> education</li>
+                        </ul>
+                        <span class="sidebar-section-title">Preset Queries</span>
+                        <div class="sql-presets">
+                            <button class="sql-preset-btn" data-query="SELECT name, role, tech_stack FROM projects WHERE tech_stack LIKE '%React%';">Query: Full-Stack Projects</button>
+                            <button class="sql-preset-btn" data-query="SELECT skill_name, category, primary_use FROM skills WHERE category = 'Databases';">Query: Core Data Skills</button>
+                            <button class="sql-preset-btn" data-query="SELECT role, company, metrics_achieved FROM experience;">Query: Work Experience</button>
+                        </div>
+                    </div>
+                    <!-- Console Workspace -->
+                    <div class="sql-workspace">
+                        <div class="sql-editor-container">
+                            <div class="sql-editor-wrapper">
+                                <textarea class="sql-textarea" id="sqlEditor" spellcheck="false">SELECT * FROM projects;</textarea>
+                            </div>
+                            <div class="sql-actions">
+                                <button class="btn btn-primary btn-run" id="btnRunQuery">Run Query <i class="fa-solid fa-play"></i></button>
+                            </div>
+                        </div>
+                        <div class="sql-results-container">
+                            <span class="sql-results-title">Query Results</span>
+                            <div id="queryResultsOutput">
+                                <!-- Results Table will render here dynamically -->
+                            </div>
+                        </div>
+                        <div class="sql-footer">
+                            <span id="sqlConsoleStatus">Ready.</span>
+                            <span class="sql-exec-time" id="sqlConsoleTime">0.02ms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- SELECTED PROJECTS --- -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Technical <span>Projects</span></h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="glass-card project-card">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="OmniData Analytics Screenshot" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Tableau Data</span>
+                            <span class="project-tag">SQL Terminal</span>
+                            <span class="project-tag">JavaScript (ES6)</span>
+                            <span class="project-tag">BI Simulation</span>
+                        </div>
+                        <h3 class="project-title">OmniData: Business Analytics Sim</h3>
+                        <p class="project-description">
+                            Architected a client-side Single Page Application (SPA) utilizing modular ES6 scripts to model operational, retail, and financial feedback loops on the Tableau Superstore dataset.
+                        </p>
+                        <ul class="project-bullets">
+                            <li>Engineered cross-module strategic dependencies connecting warehouse inventory levels, logistical delays, customer churn risk, and LTV calculations in real-time.</li>
+                            <li>Developed an in-browser interactive SQL console enabling recruiters to run live SQL database queries (SELECT, WHERE, LIMIT) on active transaction tables.</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Dimple090/OmniData-" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                            <a href="https://omni-data.vercel.app/" target="_blank" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="glass-card project-card">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="KalaKart E-Commerce Screenshot" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">React.js</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">Express</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">JWT</span>
+                            <span class="project-tag">bcrypt</span>
+                        </div>
+                        <h3 class="project-title">KalaKart: Artisan E-Commerce Platform</h3>
+                        <p class="project-description">
+                            Architected a secure full-stack e-commerce app with role-based JWT authentication and bcrypt credential encryption.
+                        </p>
+                        <ul class="project-bullets">
+                            <li>Optimized MongoDB schemas and compound indexing, decreasing API response latency by <b>35%</b> and bounce rates by <b>22%</b>.</li>
+                            <li>Designed responsive UI layouts and state synchronization across complex multi-step checkout flows.</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/dimpleparihar" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="glass-card project-card">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1531747118685-ca8fa6e08806?auto=format&fit=crop&w=600&q=80" alt="AI Assistant Screenshot" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Google APIs</span>
+                            <span class="project-tag">OAuth 2.0</span>
+                            <span class="project-tag">Cron Jobs</span>
+                            <span class="project-tag">AI Assistant</span>
+                        </div>
+                        <h3 class="project-title">Anabella Bot: AI Productivity Assistant</h3>
+                        <p class="project-description">
+                            Developed a Python virtual assistant to automate productivity workflows like email dispatch and scheduling.
+                        </p>
+                        <ul class="project-bullets">
+                            <li>Integrated Gmail and Google Calendar APIs via OAuth 2.0, reducing automated workflow execution latency by <b>85%</b>.</li>
+                            <li>Built robust error handling and logging systems to ensure reliable execution of background cron jobs.</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/dimpleparihar" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --- TECHNICAL SKILLS --- -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical <span>Skills</span></h2>
+            <div class="skills-dashboard">
+                
+                <!-- Tab Headers -->
+                <div class="skills-tabs">
+                    <button class="skills-tab-btn active" data-tab="data">Data & Databases</button>
+                    <button class="skills-tab-btn" data-tab="languages">Analytics Tools</button>
+                    <button class="skills-tab-btn" data-tab="development">Programming</button>
+                    <button class="skills-tab-btn" data-tab="tools">Developer Tools</button>
+                </div>
+
+                <!-- Tab Panes -->
+                <div class="skills-content">
+                    
+                    <!-- Pane 1 (Data & Databases) -->
+                    <div class="skills-pane active" id="data">
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL (Aggregations, Joins, Query Tuning)</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB & NoSQL Schema Design</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Database Indexing & Performance Tuning</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Relational Data Modeling (DBMS)</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pane 2 (Analytics Tools) -->
+                    <div class="skills-pane" id="languages">
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python (Pandas, NumPy, Scripting)</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Tableau & BI Data Visualization</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Data Wrangling & Cleaning</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Statistical Modeling & Logic</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pane 3 (Programming) -->
+                    <div class="skills-pane" id="development">
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript (Interactive Visualizations)</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C++ (OOP & Algorithmic Optimization)</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5 & CSS3 (Dashboard Styling)</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React.js & State Synchronization</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="90%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pane 4 (Developer Tools) -->
+                    <div class="skills-pane" id="tools">
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Postman (API Schema Testing)</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Wireshark (Network Data Analysis)</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info">
+                                <span class="skill-name">GDB & Memory Leak Profiling</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-track">
+                                <div class="skill-fill" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --- WORK EXPERIENCE --- -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Professional <span>Timeline</span></h2>
+            <div class="timeline">
+                
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-card timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Web Analytics & Dashboard Intern</h3>
+                                <span class="timeline-company">PrernaGati Technology</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date">July 2024 -- August 2024</span><br>
+                                <span class="timeline-location">Jammu, India</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li>Analyzed user engagement metrics to redesign mobile-first dashboard layouts, boosting overall active user metrics by <b>18%</b>.</li>
+                            <li>Tuned client data flows by engineering a modular React.js component library with Redux Toolkit, cutting redundant logic by <b>40%</b> and speeding page renders by <b>35%</b>.</li>
+                            <li>Collaborated on integrating JSON REST APIs, streamlining real-time data feeding into user telemetry dashboards.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-card timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Data Pipeline Optimization Intern</h3>
+                                <span class="timeline-company">Programming Pathshala</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date">June 2023 -- July 2023</span><br>
+                                <span class="timeline-location">Jammu, India</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li>Analyzed and optimized data-processing algorithms from O(N²) to O(N log N), resulting in a <b>25% execution data throughput increase</b>.</li>
+                            <li>Audited memory leak patterns and resolved segmentation faults via GDB, improving ingestion pipeline stability by <b>30%</b> and reducing RAM footprint by <b>15%</b>.</li>
+                            <li>Wrote and executed data-integrity unit validation checks to enforce software quality control standards.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --- EDUCATION & CERTIFICATIONS --- -->
+    <section class="education-section">
+        <div class="container edu-cert-grid">
+            
+            <!-- Education Column -->
+            <div class="edu-column">
+                <h2 class="column-title"><span>01.</span> Education</h2>
+                <div class="edu-item">
+                    <h3 class="edu-degree">B.E. Computer Science and Engineering</h3>
+                    <span class="edu-school">Model Institute of Engineering and Technology (MIET)</span>
+                    <span class="edu-duration">2022 -- 2026 | Jammu, India</span>
+                    <p class="edu-details">
+                        <b>CGPA: 6.63 / 10.00</b><br>
+                        Academic Focus: Database Management Systems (DBMS), Data Structures, Statistics & OOP, Operating Systems.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Certifications Column -->
+            <div class="cert-column">
+                <h2 class="column-title"><span>02.</span> Credentials</h2>
+                <div class="cert-item">
+                    <h3 class="cert-name">Introduction to Python</h3>
+                    <span class="cert-authority">Accredited Scripting & Automation Certificate</span>
+                    <a href="https://drive.google.com/file/d/1msKoBPdCCBLv3srOUoNu3migMFmRRFPZ/view?usp=drive_link" target="_blank" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Verify Credential</a>
+                </div>
+                <div class="cert-item">
+                    <h3 class="cert-name">Introduction to Artificial Intelligence</h3>
+                    <span class="cert-authority">Accredited Machine Learning & Automation Certificate</span>
+                    <a href="https://drive.google.com/file/d/1HtWDT5gBc9ZYHj7Yhj41e1PsD11j-U7T/view?usp=drive_link" target="_blank" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Verify Credential</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- --- CONTACT SECTION --- -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-header" style="text-align: center; max-width: 700px; margin: 0 auto 4rem auto; display: flex; flex-direction: column; gap: 1rem;">
+                <span class="hero-subtitle">Get In Touch</span>
+                <h2 class="contact-subtitle" style="font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; font-family: var(--font-serif); font-weight: 400;">Let's connect and build something <span>insightful</span>.</h2>
+                <p style="font-size: 1.05rem; font-weight: 300;">
+                    I'm currently seeking internships, data analyst roles, and business intelligence opportunities. Reach out directly through any of the channels below!
+                </p>
+            </div>
+            
+            <div class="contact-cards-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2rem;">
+                <!-- Email Card -->
+                <div class="glass-card contact-method-card" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 3rem 2rem; gap: 1.5rem; height: 100%;">
+                    <div class="contact-method-icon" style="width: 60px; height: 60px; font-size: 1.8rem; background-color: var(--bg-tertiary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--accent);">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="contact-method-details" style="display: flex; flex-direction: column; gap: 0.3rem;">
+                        <span class="contact-method-label" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted);">Email Address</span>
+                        <span class="contact-method-value" style="font-size: 0.95rem; color: var(--text-primary); font-weight: 500;">dimpleparihar0707@gmail.com</span>
+                    </div>
+                    <a href="mailto:dimpleparihar0707@gmail.com" class="btn btn-secondary" style="width: 100%; padding: 0.7rem 1.5rem; font-size: 0.8rem;">Send Email <i class="fa-solid fa-paper-plane"></i></a>
+                </div>
+
+                <!-- LinkedIn Card -->
+                <div class="glass-card contact-method-card" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 3rem 2rem; gap: 1.5rem; height: 100%;">
+                    <div class="contact-method-icon" style="width: 60px; height: 60px; font-size: 1.8rem; background-color: var(--bg-tertiary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--accent);">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div class="contact-method-details" style="display: flex; flex-direction: column; gap: 0.3rem;">
+                        <span class="contact-method-label" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted);">LinkedIn</span>
+                        <span class="contact-method-value" style="font-size: 0.95rem; color: var(--text-primary); font-weight: 500;">linkedin.com/in/dimpleparihar</span>
+                    </div>
+                    <a href="https://linkedin.com/in/dimpleparihar" target="_blank" class="btn btn-secondary" style="width: 100%; padding: 0.7rem 1.5rem; font-size: 0.8rem;">Connect <i class="fa-solid fa-user-plus"></i></a>
+                </div>
+
+                <!-- GitHub Card -->
+                <div class="glass-card contact-method-card" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 3rem 2rem; gap: 1.5rem; height: 100%;">
+                    <div class="contact-method-icon" style="width: 60px; height: 60px; font-size: 1.8rem; background-color: var(--bg-tertiary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--accent);">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="contact-method-details" style="display: flex; flex-direction: column; gap: 0.3rem;">
+                        <span class="contact-method-label" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted);">GitHub</span>
+                        <span class="contact-method-value" style="font-size: 0.95rem; color: var(--text-primary); font-weight: 500;">github.com/dimpleparihar</span>
+                    </div>
+                    <a href="https://github.com/dimpleparihar" target="_blank" class="btn btn-secondary" style="width: 100%; padding: 0.7rem 1.5rem; font-size: 0.8rem;">View Projects <i class="fa-solid fa-code-branch"></i></a>
+                </div>
+
+                <!-- Resume Card -->
+                <div class="glass-card contact-method-card" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 3rem 2rem; gap: 1.5rem; height: 100%;">
+                    <div class="contact-method-icon" style="width: 60px; height: 60px; font-size: 1.8rem; background-color: var(--bg-tertiary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--accent);">
+                        <i class="fa-solid fa-file-pdf"></i>
+                    </div>
+                    <div class="contact-method-details" style="display: flex; flex-direction: column; gap: 0.3rem;">
+                        <span class="contact-method-label" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted);">Resume PDF</span>
+                        <span class="contact-method-value" style="font-size: 0.95rem; color: var(--text-primary); font-weight: 500;">Dimple Parihar Resume</span>
+                    </div>
+                    <a href="Dimple_Parihar_Resume.pdf" target="_blank" class="btn btn-primary" style="width: 100%; padding: 0.7rem 1.5rem; font-size: 0.8rem;">Download PDF <i class="fa-solid fa-arrow-down-to-bracket"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- FOOTER --- -->
+    <footer>
+        <div class="container footer-container">
+            <span class="logo">dimple<span>.</span></span>
+            <div class="footer-copy">
+                &copy; 2026 Dimple Parihar. All rights reserved.
+            </div>
+            <div class="footer-socials">
+                <a href="https://linkedin.com/in/dimpleparihar" target="_blank" class="footer-social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/dimpleparihar" target="_blank" class="footer-social-link"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:dimpleparihar0707@gmail.com" class="footer-social-link"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="index.js?v=5"></script>
+</body>
+</html>
